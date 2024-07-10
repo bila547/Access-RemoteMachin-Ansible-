@@ -1,0 +1,4 @@
+- hosts: my_vm
+  tasks:
+    - name: Test connectivity
+      ping:
